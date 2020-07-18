@@ -91,10 +91,10 @@ def main(width, height, stroke_width):
     # define style
     dwg.add(dwg.style(f'''
         .background {{
-            fill: #000;
+            fill: black;
         }}
         .outer-line {{
-            stroke: #000;
+            stroke: black;
             stroke-width: {stroke_width};
             fill: none;
         }}
@@ -108,7 +108,7 @@ def main(width, height, stroke_width):
     dwg['width'] = 3 * width + 1
     dwg['height'] = ROOT3 * (height + 1)
     cairosvg.svg2png(dwg.tostring().encode('utf-8'),
-                     write_to='truchet.png', scale=2000 / dwg['width'])
+                     write_to='hexagon_truchet.png', scale=2000 / dwg['width'])
 
 
 if __name__ == '__main__':

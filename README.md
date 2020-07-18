@@ -1,4 +1,8 @@
-# Hexagon-Truchet-Python
-Create Hexagon Truchet with Python
+# Truchet Python
+Create Truchet Patterns with Python
 
-<img src="truchet.png" width="50%">
+## Hexagon Truchet
+<img src="samples/hexagon_truchet.png" width="50%">
+
+## Swirl Truchet
+<img src="samples/swirl_truchet.png" width="50%">
